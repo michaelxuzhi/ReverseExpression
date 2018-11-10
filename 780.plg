@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 780 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1131.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/780.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\PROGM FILES (X86)\MICROSOFT VISUAL STUDIO\MYPROJECTS\780\780.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP1131.tmp" 
+<h3>Output Window</h3>
+Compiling...
+780.cpp
+f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(8) : error C2258: illegal pure syntax, must be '= 0'
+f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(8) : error C2252: 'oper' : pure specifier can only be specified for functions
+f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(46) : error C2039: 'clear' : is not a member of 'basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'
+f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(59) : error C2039: 'oper' : is not a member of 'OneExpr'
+        f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(6) : see declaration of 'OneExpr'
+f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(59) : error C2039: 'oper' : is not a member of 'OneExpr'
+        f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(6) : see declaration of 'OneExpr'
+f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(61) : error C2668: 'insert' : ambiguous call to overloaded function
+f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(62) : error C2039: 'push_back' : is not a member of 'basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'
+f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(65) : error C2039: 'oper' : is not a member of 'OneExpr'
+        f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(6) : see declaration of 'OneExpr'
+f:\progm files (x86)\microsoft visual studio\myprojects\780\780.cpp(70) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+780.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
